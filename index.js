@@ -28,6 +28,9 @@ function bg(){
     if(scr < 70 ){
         nav.classList.remove("ch")
       link.classList.remove("b")
+       navLinks.forEach(function (navLink) {
+            navLink.classList.add("sd");
+        });
       }
         else{
             nav.classList.add("ch")
